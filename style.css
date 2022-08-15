@@ -145,6 +145,19 @@ header {
     .heroparag {
         overflow-wrap: break-word;
     }
+
+    .midimgs {
+        
+        width: 320px;
+        
+    }
+
+    .mid-imgs-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
 }
 
 
