@@ -148,7 +148,9 @@ header {
 
     .midimgs {
         
-        width: 320px;
+        width: 260px;
+        height: 280px;
+        padding-bottom: 40px;
         
     }
 
@@ -257,6 +259,7 @@ header {
     #bottomcol { 
         width: 480px;
         top: 2950px;
+        
 
     }
     
@@ -265,13 +268,23 @@ header {
 @media only screen and (max-width: 599px) {
 
     #bottomcol { 
-        width: 350px;
-        top: 2890px;
-
+        width: 320px;
+        top: 3000px;
+        
     }
     
 }
 
+
+@media only screen and (max-width: 412px) {
+
+    #bottomcol { 
+        width: 320px;
+        top: 2990px;
+        
+    }
+
+}
 #footer{
     background-color: hsl(192, 100%, 9%);
     padding-top: 150px;
