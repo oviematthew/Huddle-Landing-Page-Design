@@ -268,8 +268,10 @@ header {
 @media only screen and (max-width: 599px) {
 
     #bottomcol { 
-        width: 320px;
+        width: 350px;
         top: 3000px;
+        display: grid;
+        place-items: center;
         
     }
     
